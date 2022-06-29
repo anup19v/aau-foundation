@@ -1,0 +1,11 @@
+<?php
+#database connectivity for xampp on mysqli.
+#mysqli_connect('hostname','username','password','databasename');
+$con=mysqli_connect('localhost','root','','aau_foundation_db')or die('No conection found');
+
+
+#database connectivity for wamp on mysql.
+//mysql_connect('localhost','root','')or die('No conection found');
+//mysql_select_db('aau_foundation_db')or die('No database found');
+
+?>
